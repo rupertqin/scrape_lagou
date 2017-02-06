@@ -1,0 +1,1329 @@
+{
+  "cities": [
+    {
+        "city": "鞍山", 
+        "id": "45", 
+        "capital": "A"
+    }, 
+    {
+        "city": "澳门", 
+        "id": "357", 
+        "capital": "A"
+    }, 
+    {
+        "city": "安阳", 
+        "id": "171", 
+        "capital": "A"
+    }, 
+    {
+        "city": "安庆", 
+        "id": "118", 
+        "capital": "A"
+    }, 
+    {
+        "city": "安康", 
+        "id": "306", 
+        "capital": "A"
+    }, 
+    {
+        "city": "安顺", 
+        "id": "276", 
+        "capital": "A"
+    }, 
+    {
+        "city": "北京", 
+        "id": "2", 
+        "capital": "B"
+    }, 
+    {
+        "city": "保定", 
+        "id": "13", 
+        "capital": "B"
+    }, 
+    {
+        "city": "包头", 
+        "id": "32", 
+        "capital": "B"
+    }, 
+    {
+        "city": "蚌埠", 
+        "id": "113", 
+        "capital": "B"
+    }, 
+    {
+        "city": "宝鸡", 
+        "id": "300", 
+        "capital": "B"
+    }, 
+    {
+        "city": "北海", 
+        "id": "239", 
+        "capital": "B"
+    }, 
+    {
+        "city": "亳州", 
+        "id": "125", 
+        "capital": "B"
+    }, 
+    {
+        "city": "滨州", 
+        "id": "163", 
+        "capital": "B"
+    }, 
+    {
+        "city": "白银", 
+        "id": "318", 
+        "capital": "B"
+    }, 
+    {
+        "city": "巴中", 
+        "id": "268", 
+        "capital": "B"
+    }, 
+    {
+        "city": "保山", 
+        "id": "285", 
+        "capital": "B"
+    }, 
+    {
+        "city": "巴彦淖尔", 
+        "id": "41", 
+        "capital": "B"
+    }, 
+    {
+        "city": "成都", 
+        "id": "252", 
+        "capital": "C"
+    }, 
+    {
+        "city": "重庆", 
+        "id": "5", 
+        "capital": "C"
+    }, 
+    {
+        "city": "长沙", 
+        "id": "198", 
+        "capital": "C"
+    }, 
+    {
+        "city": "常州", 
+        "id": "87", 
+        "capital": "C"
+    }, 
+    {
+        "city": "沧州", 
+        "id": "16", 
+        "capital": "C"
+    }, 
+    {
+        "city": "常熟", 
+        "id": "82", 
+        "capital": "C"
+    }, 
+    {
+        "city": "朝阳", 
+        "id": "55", 
+        "capital": "C"
+    }, 
+    {
+        "city": "常德", 
+        "id": "204", 
+        "capital": "C"
+    }, 
+    {
+        "city": "潮州", 
+        "id": "232", 
+        "capital": "C"
+    }, 
+    {
+        "city": "承德", 
+        "id": "15", 
+        "capital": "C"
+    }, 
+    {
+        "city": "郴州", 
+        "id": "207", 
+        "capital": "C"
+    }, 
+    {
+        "city": "赤峰", 
+        "id": "34", 
+        "capital": "C"
+    }, 
+    {
+        "city": "滁州", 
+        "id": "120", 
+        "capital": "C"
+    }, 
+    {
+        "city": "池州", 
+        "id": "126", 
+        "capital": "C"
+    }, 
+    {
+        "city": "崇左", 
+        "id": "248", 
+        "capital": "C"
+    }, 
+    {
+        "city": "东莞", 
+        "id": "230", 
+        "capital": "D"
+    }, 
+    {
+        "city": "大连", 
+        "id": "43", 
+        "capital": "D"
+    }, 
+    {
+        "city": "德州", 
+        "id": "161", 
+        "capital": "D"
+    }, 
+    {
+        "city": "东营", 
+        "id": "152", 
+        "capital": "D"
+    }, 
+    {
+        "city": "大庆", 
+        "id": "62", 
+        "capital": "D"
+    }, 
+    {
+        "city": "德阳", 
+        "id": "256", 
+        "capital": "D"
+    }, 
+    {
+        "city": "达州", 
+        "id": "266", 
+        "capital": "D"
+    }, 
+    {
+        "city": "大同", 
+        "id": "20", 
+        "capital": "D"
+    }, 
+    {
+        "city": "丹东", 
+        "id": "48", 
+        "capital": "D"
+    }, 
+    {
+        "city": "定西", 
+        "id": "325", 
+        "capital": "D"
+    }, 
+    {
+        "city": "鄂尔多斯", 
+        "id": "36", 
+        "capital": "E"
+    }, 
+    {
+        "city": "鄂州", 
+        "id": "189", 
+        "capital": "E"
+    }, 
+    {
+        "city": "福州", 
+        "id": "128", 
+        "capital": "F"
+    }, 
+    {
+        "city": "佛山", 
+        "id": "218", 
+        "capital": "F"
+    }, 
+    {
+        "city": "抚顺", 
+        "id": "46", 
+        "capital": "F"
+    }, 
+    {
+        "city": "阜阳", 
+        "id": "121", 
+        "capital": "F"
+    }, 
+    {
+        "city": "防城港", 
+        "id": "240", 
+        "capital": "F"
+    }, 
+    {
+        "city": "抚州", 
+        "id": "146", 
+        "capital": "F"
+    }, 
+    {
+        "city": "广州", 
+        "id": "213", 
+        "capital": "G"
+    }, 
+    {
+        "city": "贵阳", 
+        "id": "273", 
+        "capital": "G"
+    }, 
+    {
+        "city": "桂林", 
+        "id": "237", 
+        "capital": "G"
+    }, 
+    {
+        "city": "赣州", 
+        "id": "143", 
+        "capital": "G"
+    }, 
+    {
+        "city": "广安", 
+        "id": "265", 
+        "capital": "G"
+    }, 
+    {
+        "city": "贵港", 
+        "id": "242", 
+        "capital": "G"
+    }, 
+    {
+        "city": "杭州", 
+        "id": "6", 
+        "capital": "H"
+    }, 
+    {
+        "city": "合肥", 
+        "id": "111", 
+        "capital": "H"
+    }, 
+    {
+        "city": "哈尔滨", 
+        "id": "57", 
+        "capital": "H"
+    }, 
+    {
+        "city": "惠州", 
+        "id": "224", 
+        "capital": "H"
+    }, 
+    {
+        "city": "海口", 
+        "id": "249", 
+        "capital": "H"
+    }, 
+    {
+        "city": "呼和浩特", 
+        "id": "31", 
+        "capital": "H"
+    }, 
+    {
+        "city": "湖州", 
+        "id": "102", 
+        "capital": "H"
+    }, 
+    {
+        "city": "邯郸", 
+        "id": "11", 
+        "capital": "H"
+    }, 
+    {
+        "city": "淮安", 
+        "id": "90", 
+        "capital": "H"
+    }, 
+    {
+        "city": "黄冈", 
+        "id": "193", 
+        "capital": "H"
+    }, 
+    {
+        "city": "衡阳", 
+        "id": "201", 
+        "capital": "H"
+    }, 
+    {
+        "city": "衡水", 
+        "id": "18", 
+        "capital": "H"
+    }, 
+    {
+        "city": "淮北", 
+        "id": "116", 
+        "capital": "H"
+    }, 
+    {
+        "city": "黄石", 
+        "id": "185", 
+        "capital": "H"
+    }, 
+    {
+        "city": "菏泽", 
+        "id": "164", 
+        "capital": "H"
+    }, 
+    {
+        "city": "汉中", 
+        "id": "304", 
+        "capital": "H"
+    }, 
+    {
+        "city": "怀化", 
+        "id": "209", 
+        "capital": "H"
+    }, 
+    {
+        "city": "黄山", 
+        "id": "119", 
+        "capital": "H"
+    }, 
+    {
+        "city": "呼伦贝尔", 
+        "id": "37", 
+        "capital": "H"
+    }, 
+    {
+        "city": "葫芦岛", 
+        "id": "56", 
+        "capital": "H"
+    }, 
+    {
+        "city": "淮南", 
+        "id": "114", 
+        "capital": "H"
+    }, 
+    {
+        "city": "贺州", 
+        "id": "245", 
+        "capital": "H"
+    }, 
+    {
+        "city": "河源", 
+        "id": "227", 
+        "capital": "H"
+    }, 
+    {
+        "city": "海东地区", 
+        "id": "330", 
+        "capital": "H"
+    }, 
+    {
+        "city": "黑河", 
+        "id": "67", 
+        "capital": "H"
+    }, 
+    {
+        "city": "海宁", 
+        "id": "100", 
+        "capital": "H"
+    }, 
+    {
+        "city": "和田", 
+        "id": "348", 
+        "capital": "H"
+    }, 
+    {
+        "city": "鹤壁", 
+        "id": "172", 
+        "capital": "H"
+    }, 
+    {
+        "city": "济南", 
+        "id": "148", 
+        "capital": "J"
+    }, 
+    {
+        "city": "嘉兴", 
+        "id": "101", 
+        "capital": "J"
+    }, 
+    {
+        "city": "金华", 
+        "id": "104", 
+        "capital": "J"
+    }, 
+    {
+        "city": "济宁", 
+        "id": "155", 
+        "capital": "J"
+    }, 
+    {
+        "city": "江门", 
+        "id": "220", 
+        "capital": "J"
+    }, 
+    {
+        "city": "吉林", 
+        "id": "71", 
+        "capital": "J"
+    }, 
+    {
+        "city": "江阴", 
+        "id": "85", 
+        "capital": "J"
+    }, 
+    {
+        "city": "九江", 
+        "id": "140", 
+        "capital": "J"
+    }, 
+    {
+        "city": "晋中", 
+        "id": "25", 
+        "capital": "J"
+    }, 
+    {
+        "city": "揭阳", 
+        "id": "233", 
+        "capital": "J"
+    }, 
+    {
+        "city": "晋城", 
+        "id": "23", 
+        "capital": "J"
+    }, 
+    {
+        "city": "荆州", 
+        "id": "192", 
+        "capital": "J"
+    }, 
+    {
+        "city": "焦作", 
+        "id": "174", 
+        "capital": "J"
+    }, 
+    {
+        "city": "景德镇", 
+        "id": "138", 
+        "capital": "J"
+    }, 
+    {
+        "city": "吉安", 
+        "id": "144", 
+        "capital": "J"
+    }, 
+    {
+        "city": "荆门", 
+        "id": "190", 
+        "capital": "J"
+    }, 
+    {
+        "city": "酒泉", 
+        "id": "323", 
+        "capital": "J"
+    }, 
+    {
+        "city": "锦州", 
+        "id": "49", 
+        "capital": "J"
+    }, 
+    {
+        "city": "昆明", 
+        "id": "282", 
+        "capital": "K"
+    }, 
+    {
+        "city": "昆山", 
+        "id": "81", 
+        "capital": "K"
+    }, 
+    {
+        "city": "开封", 
+        "id": "168", 
+        "capital": "K"
+    }, 
+    {
+        "city": "洛阳", 
+        "id": "169", 
+        "capital": "L"
+    }, 
+    {
+        "city": "廊坊", 
+        "id": "17", 
+        "capital": "L"
+    }, 
+    {
+        "city": "临沂", 
+        "id": "160", 
+        "capital": "L"
+    }, 
+    {
+        "city": "兰州", 
+        "id": "315", 
+        "capital": "L"
+    }, 
+    {
+        "city": "柳州", 
+        "id": "236", 
+        "capital": "L"
+    }, 
+    {
+        "city": "连云港", 
+        "id": "89", 
+        "capital": "L"
+    }, 
+    {
+        "city": "拉萨", 
+        "id": "308", 
+        "capital": "L"
+    }, 
+    {
+        "city": "聊城", 
+        "id": "162", 
+        "capital": "L"
+    }, 
+    {
+        "city": "龙岩", 
+        "id": "136", 
+        "capital": "L"
+    }, 
+    {
+        "city": "丽江", 
+        "id": "294", 
+        "capital": "L"
+    }, 
+    {
+        "city": "丽水", 
+        "id": "108", 
+        "capital": "L"
+    }, 
+    {
+        "city": "乐山", 
+        "id": "261", 
+        "capital": "L"
+    }, 
+    {
+        "city": "漯河", 
+        "id": "177", 
+        "capital": "L"
+    }, 
+    {
+        "city": "六安", 
+        "id": "124", 
+        "capital": "L"
+    }, 
+    {
+        "city": "临汾", 
+        "id": "28", 
+        "capital": "L"
+    }, 
+    {
+        "city": "莱芜", 
+        "id": "159", 
+        "capital": "L"
+    }, 
+    {
+        "city": "六盘水", 
+        "id": "274", 
+        "capital": "L"
+    }, 
+    {
+        "city": "辽源", 
+        "id": "73", 
+        "capital": "L"
+    }, 
+    {
+        "city": "娄底", 
+        "id": "210", 
+        "capital": "L"
+    }, 
+    {
+        "city": "吕梁", 
+        "id": "29", 
+        "capital": "L"
+    }, 
+    {
+        "city": "辽阳", 
+        "id": "52", 
+        "capital": "L"
+    }, 
+    {
+        "city": "泸州", 
+        "id": "255", 
+        "capital": "L"
+    }, 
+    {
+        "city": "绵阳", 
+        "id": "257", 
+        "capital": "M"
+    }, 
+    {
+        "city": "茂名", 
+        "id": "222", 
+        "capital": "M"
+    }, 
+    {
+        "city": "马鞍山", 
+        "id": "115", 
+        "capital": "M"
+    }, 
+    {
+        "city": "眉山", 
+        "id": "263", 
+        "capital": "M"
+    }, 
+    {
+        "city": "梅州", 
+        "id": "225", 
+        "capital": "M"
+    }, 
+    {
+        "city": "牡丹江", 
+        "id": "66", 
+        "capital": "M"
+    }, 
+    {
+        "city": "南京", 
+        "id": "79", 
+        "capital": "N"
+    }, 
+    {
+        "city": "宁波", 
+        "id": "98", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南昌", 
+        "id": "7", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南宁", 
+        "id": "235", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南通", 
+        "id": "88", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南充", 
+        "id": "262", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南阳", 
+        "id": "179", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南平", 
+        "id": "135", 
+        "capital": "N"
+    }, 
+    {
+        "city": "宁德", 
+        "id": "137", 
+        "capital": "N"
+    }, 
+    {
+        "city": "内江", 
+        "id": "260", 
+        "capital": "N"
+    }, 
+    {
+        "city": "南海区", 
+        "id": "219", 
+        "capital": "N"
+    }, 
+    {
+        "city": "莆田", 
+        "id": "130", 
+        "capital": "P"
+    }, 
+    {
+        "city": "濮阳", 
+        "id": "175", 
+        "capital": "P"
+    }, 
+    {
+        "city": "平顶山", 
+        "id": "170", 
+        "capital": "P"
+    }, 
+    {
+        "city": "盘锦", 
+        "id": "53", 
+        "capital": "P"
+    }, 
+    {
+        "city": "萍乡", 
+        "id": "139", 
+        "capital": "P"
+    }, 
+    {
+        "city": "青岛", 
+        "id": "149", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "泉州", 
+        "id": "132", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "秦皇岛", 
+        "id": "10", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "衢州", 
+        "id": "105", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "清远", 
+        "id": "229", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "齐齐哈尔", 
+        "id": "58", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "庆阳", 
+        "id": "324", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "钦州", 
+        "id": "241", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "曲靖", 
+        "id": "283", 
+        "capital": "Q"
+    }, 
+    {
+        "city": "日照", 
+        "id": "158", 
+        "capital": "R"
+    }, 
+    {
+        "city": "上海", 
+        "id": "3", 
+        "capital": "S"
+    }, 
+    {
+        "city": "苏州", 
+        "id": "80", 
+        "capital": "S"
+    }, 
+    {
+        "city": "深圳", 
+        "id": "215", 
+        "capital": "S"
+    }, 
+    {
+        "city": "石家庄", 
+        "id": "8", 
+        "capital": "S"
+    }, 
+    {
+        "city": "沈阳", 
+        "id": "44", 
+        "capital": "S"
+    }, 
+    {
+        "city": "绍兴", 
+        "id": "103", 
+        "capital": "S"
+    }, 
+    {
+        "city": "汕头", 
+        "id": "217", 
+        "capital": "S"
+    }, 
+    {
+        "city": "三亚", 
+        "id": "250", 
+        "capital": "S"
+    }, 
+    {
+        "city": "宿迁", 
+        "id": "96", 
+        "capital": "S"
+    }, 
+    {
+        "city": "上饶", 
+        "id": "147", 
+        "capital": "S"
+    }, 
+    {
+        "city": "商丘", 
+        "id": "180", 
+        "capital": "S"
+    }, 
+    {
+        "city": "十堰", 
+        "id": "186", 
+        "capital": "S"
+    }, 
+    {
+        "city": "韶关", 
+        "id": "214", 
+        "capital": "S"
+    }, 
+    {
+        "city": "三明", 
+        "id": "131", 
+        "capital": "S"
+    }, 
+    {
+        "city": "宿州", 
+        "id": "122", 
+        "capital": "S"
+    }, 
+    {
+        "city": "遂宁", 
+        "id": "259", 
+        "capital": "S"
+    }, 
+    {
+        "city": "汕尾", 
+        "id": "226", 
+        "capital": "S"
+    }, 
+    {
+        "city": "随州", 
+        "id": "195", 
+        "capital": "S"
+    }, 
+    {
+        "city": "三门峡", 
+        "id": "178", 
+        "capital": "S"
+    }, 
+    {
+        "city": "商洛", 
+        "id": "307", 
+        "capital": "S"
+    }, 
+    {
+        "city": "天津", 
+        "id": "4", 
+        "capital": "T"
+    }, 
+    {
+        "city": "太原", 
+        "id": "19", 
+        "capital": "T"
+    }, 
+    {
+        "city": "台州", 
+        "id": "107", 
+        "capital": "T"
+    }, 
+    {
+        "city": "唐山", 
+        "id": "9", 
+        "capital": "T"
+    }, 
+    {
+        "city": "泰安", 
+        "id": "156", 
+        "capital": "T"
+    }, 
+    {
+        "city": "泰州", 
+        "id": "94", 
+        "capital": "T"
+    }, 
+    {
+        "city": "太仓", 
+        "id": "97", 
+        "capital": "T"
+    }, 
+    {
+        "city": "铜陵", 
+        "id": "117", 
+        "capital": "T"
+    }, 
+    {
+        "city": "通辽", 
+        "id": "35", 
+        "capital": "T"
+    }, 
+    {
+        "city": "天水", 
+        "id": "319", 
+        "capital": "T"
+    }, 
+    {
+        "city": "通化", 
+        "id": "74", 
+        "capital": "T"
+    }, 
+    {
+        "city": "台湾", 
+        "id": "358", 
+        "capital": "T"
+    }, 
+    {
+        "city": "武汉", 
+        "id": "184", 
+        "capital": "W"
+    }, 
+    {
+        "city": "无锡", 
+        "id": "84", 
+        "capital": "W"
+    }, 
+    {
+        "city": "温州", 
+        "id": "99", 
+        "capital": "W"
+    }, 
+    {
+        "city": "潍坊", 
+        "id": "154", 
+        "capital": "W"
+    }, 
+    {
+        "city": "乌鲁木齐", 
+        "id": "342", 
+        "capital": "W"
+    }, 
+    {
+        "city": "芜湖", 
+        "id": "112", 
+        "capital": "W"
+    }, 
+    {
+        "city": "威海", 
+        "id": "157", 
+        "capital": "W"
+    }, 
+    {
+        "city": "渭南", 
+        "id": "302", 
+        "capital": "W"
+    }, 
+    {
+        "city": "梧州", 
+        "id": "238", 
+        "capital": "W"
+    }, 
+    {
+        "city": "乌海", 
+        "id": "33", 
+        "capital": "W"
+    }, 
+    {
+        "city": "乌兰察布", 
+        "id": "40", 
+        "capital": "W"
+    }, 
+    {
+        "city": "吴忠", 
+        "id": "339", 
+        "capital": "W"
+    }, 
+    {
+        "city": "厦门", 
+        "id": "129", 
+        "capital": "X"
+    }, 
+    {
+        "city": "西安", 
+        "id": "298", 
+        "capital": "X"
+    }, 
+    {
+        "city": "香港", 
+        "id": "356", 
+        "capital": "X"
+    }, 
+    {
+        "city": "徐州", 
+        "id": "86", 
+        "capital": "X"
+    }, 
+    {
+        "city": "新乡", 
+        "id": "173", 
+        "capital": "X"
+    }, 
+    {
+        "city": "许昌", 
+        "id": "176", 
+        "capital": "X"
+    }, 
+    {
+        "city": "咸阳", 
+        "id": "301", 
+        "capital": "X"
+    }, 
+    {
+        "city": "西宁", 
+        "id": "329", 
+        "capital": "X"
+    }, 
+    {
+        "city": "邢台", 
+        "id": "12", 
+        "capital": "X"
+    }, 
+    {
+        "city": "湘潭", 
+        "id": "200", 
+        "capital": "X"
+    }, 
+    {
+        "city": "孝感", 
+        "id": "191", 
+        "capital": "X"
+    }, 
+    {
+        "city": "襄阳", 
+        "id": "197", 
+        "capital": "X"
+    }, 
+    {
+        "city": "襄樊", 
+        "id": "188", 
+        "capital": "X"
+    }, 
+    {
+        "city": "信阳", 
+        "id": "181", 
+        "capital": "X"
+    }, 
+    {
+        "city": "宣城", 
+        "id": "127", 
+        "capital": "X"
+    }, 
+    {
+        "city": "忻州", 
+        "id": "27", 
+        "capital": "X"
+    }, 
+    {
+        "city": "咸宁", 
+        "id": "194", 
+        "capital": "X"
+    }, 
+    {
+        "city": "新余", 
+        "id": "141", 
+        "capital": "X"
+    }, 
+    {
+        "city": "烟台", 
+        "id": "153", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "扬州", 
+        "id": "92", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "银川", 
+        "id": "337", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "盐城", 
+        "id": "91", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "宜昌", 
+        "id": "187", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "岳阳", 
+        "id": "203", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "宜春", 
+        "id": "145", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "运城", 
+        "id": "26", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "营口", 
+        "id": "50", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "阳江", 
+        "id": "228", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "宜宾", 
+        "id": "264", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "玉林", 
+        "id": "243", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "益阳", 
+        "id": "206", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "延安", 
+        "id": "303", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "阳泉", 
+        "id": "21", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "永州", 
+        "id": "208", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "榆林", 
+        "id": "305", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "玉溪", 
+        "id": "284", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "雅安", 
+        "id": "267", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "云浮", 
+        "id": "234", 
+        "capital": "Y"
+    }, 
+    {
+        "city": "郑州", 
+        "id": "167", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "珠海", 
+        "id": "216", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "中山", 
+        "id": "231", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "长春", 
+        "id": "70", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "淄博", 
+        "id": "150", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "镇江", 
+        "id": "93", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "张家港", 
+        "id": "83", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "湛江", 
+        "id": "221", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "肇庆", 
+        "id": "223", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "株洲", 
+        "id": "199", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "漳州", 
+        "id": "134", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "舟山", 
+        "id": "106", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "枣庄", 
+        "id": "151", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "遵义", 
+        "id": "275", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "张家口", 
+        "id": "14", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "自贡", 
+        "id": "253", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "张家界", 
+        "id": "205", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "长治", 
+        "id": "22", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "周口", 
+        "id": "182", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "驻马店", 
+        "id": "183", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "资阳", 
+        "id": "269", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "张掖", 
+        "id": "321", 
+        "capital": "Z"
+    }, 
+    {
+        "city": "章丘", 
+        "id": "165", 
+        "capital": "Z"
+    }
+]
+}
