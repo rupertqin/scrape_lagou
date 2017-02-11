@@ -13,7 +13,7 @@ defmodule ScrapeLagou.Application do
       # Starts a worker by calling: ScrapeLagou.Worker.start_link(arg1, arg2, arg3)
       # worker(ScrapeLagou.Worker, [arg1, arg2, arg3]),
       supervisor(ScrapeLagou.Repo, []),
-      worker(ScrapeLagou.Scrape, [])
+      # worker(ScrapeLagou.Scrape, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
