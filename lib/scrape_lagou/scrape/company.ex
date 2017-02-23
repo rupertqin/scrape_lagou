@@ -1,5 +1,4 @@
 defmodule ScrapeLagou.Scrape.Company do
-  use GenServer
 
   @concurrency   4
   @base_url   "https://www.lagou.com/gongsi/"

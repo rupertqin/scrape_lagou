@@ -35,4 +35,9 @@ config :scrape_lagou, ScrapeLagou.Repo,
   username: "postgres",
   password: ""
 
+# config :scrape_lagou, ScrapeLagou.MongoRepo,
+#   adapter: Ecto.Adapters.Mongo,
+#   hostname: "localhost",
+#   database: "lagou"
+
 config :scrape_lagou, ecto_repos: [ScrapeLagou.Repo]

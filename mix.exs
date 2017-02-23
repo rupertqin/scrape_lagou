@@ -15,7 +15,7 @@ defmodule ScrapeLagou.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger, :poison, :httpoison, :ecto, :postgrex],
+    [extra_applications: [:logger, :poison, :httpoison, :ecto, :postgrex, :mongodb, :poolboy],
      mod: {ScrapeLagou.Application, []}]
   end
 
@@ -31,6 +31,9 @@ defmodule ScrapeLagou.Mixfile do
   defp deps do
     [{:httpoison, "~> 0.10.0"},
      {:ecto, "~> 2.0"},
+     {:mongodb, ">= 0.0.0"},
+     {:floki, "~> 0.14.0"},
+     {:poolboy, ">= 0.0.0"},
      {:poison, "~> 3.0"},
      {:postgrex, " ~> 0.12"}]
   end

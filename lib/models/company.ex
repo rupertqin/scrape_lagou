@@ -1,8 +1,8 @@
 defmodule ScrapeLagou.Company do
   use Ecto.Schema
   # import Ecto.Changeset
-
 	schema "company" do
+		# field :companyId,           :integer, primary_key: true
 		field :companyId,           :integer
 		field :companyFullName,     :string
 		field :companyShortName,    :string
@@ -17,6 +17,7 @@ defmodule ScrapeLagou.Company do
 		field :approve,             :integer
 		field :countryScore,        :integer
 		field :cityScore,           :integer
+		field :detailsJson,         :string
 	end
 
   # @required_fields ~w(title url issue)
