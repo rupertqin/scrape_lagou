@@ -14,7 +14,7 @@ defmodule ScrapeLagou.Scrape.Position do
     {:ok, conn} = Mongo.start_link(database: "node-crawler")
     # query = from p in ScrapeLagou.Company,
     # query = from p in ScrapeLagou.Company, where: is_nil(p.detailsJson),
-    query = from p in ScrapeLagou.Company, where: not is_nil(p.positionJson),
+    query = from p in ScrapeLagou.Company, where: not p.positionDone or is_nil(p.positionDone),
             select: p.companyId
     ScrapeLagou.Repo.all(query)
     |> IO.inspect
@@ -39,15 +39,14 @@ defmodule ScrapeLagou.Scrape.Position do
             IO.inspect Poison.Parser.parse!(response.body)
 
             %{"content" => %{"data" => %{"page" => %{"result" => positions, "totalCount" => totalCount}}}} = Poison.Parser.parse!(response.body)
-            IO.inspect response.body
-            IO.inspect "position size: "
-            IO.inspect length(positions)
             if length(positions) > 0 do
+              insert_positions(positions)
               Mongo.insert_many(conn, "position", positions)
-              update_company(id, :positionJson, Poison.encode!(positions))
               # loop to next page
               if String.to_integer(totalCount) > 10 * page do
                 fetch_company(id, page + 1, conn)
+              else
+                update_company(id, :positionDone, true)
               end
             end
 
@@ -64,6 +63,42 @@ defmodule ScrapeLagou.Scrape.Position do
 
   end
 
+  def insert_positions(positions) do
+    for position <- positions do
+      ScrapeLagou.Repo.insert %ScrapeLagou.Position{
+        companyId: position["companyId"],
+        positionId: position["positionId"],
+        jobNature: position["jobNature"],
+        financeStage: position["financeStage"],
+        companyName: position["companyName"],
+        companyFullName: position["companyFullName"],
+        companySize: position["companySize"],
+        industryField: position["industryField"],
+        positionName: position["positionName"],
+        city: position["city"],
+        createTime: position["createTime"],
+        salary: position["salary"],
+        workYear: position["workYear"],
+        education: position["education"],
+        positionAdvantage: position["positionAdvantage"],
+        companyLabelList: position["companyLabelList"],
+        userId: position["userId"],
+        companyLogo: position["companyLogo"],
+        haveDeliver: position["haveDeliver"],
+        score: position["score"],
+        adWord: position["adWord"],
+        adTimes: position["adTimes"],
+        adBeforeDetailPV: position["adBeforeDetailPV"],
+        adAfterDetailPV: position["adAfterDetailPV"],
+        adBeforeReceivedCount: position["adBeforeReceivedCount"],
+        adAfterReceivedCount: position["adAfterReceivedCount"],
+        isCalcScore: position["isCalcScore"],
+        searchScore: position["searchScore"],
+        district: position["district"]
+      }
+    end
+  end
+
   def update_company(id, key, value) do
     company = ScrapeLagou.Repo.get_by!(ScrapeLagou.Company, companyId: id)
     company = Ecto.Changeset.change company, %{key => value}
@@ -77,6 +112,5 @@ defmodule ScrapeLagou.Scrape.Position do
         IO.inspect changeset
     end
   end
-
 end
 
