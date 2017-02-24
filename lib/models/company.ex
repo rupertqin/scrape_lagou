@@ -18,6 +18,7 @@ defmodule ScrapeLagou.Company do
 		field :countryScore,        :integer
 		field :cityScore,           :integer
 		field :detailsJson,         :string
+		field :positionJson,        :string
 	end
 
   # @required_fields ~w(title url issue)
